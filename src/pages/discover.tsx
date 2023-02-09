@@ -8,7 +8,7 @@ import { communityListState, CommunityState } from "../atoms/communityState";
 import NextLink from "next/link";
 import GameLoop from "../components/Map/GameLoop";
 import TileView from "../components/Map/TileView";
-import TileMap from "../components/TileMap/TileMap";
+import CanvaWrapper from "../components/TileMap/CanvaWrapper";
 
 type discoverProps = {};
 
@@ -21,8 +21,8 @@ const Discover: React.FC<discoverProps> = () => {
       {/* <GameLoop>
         <TileView />
       </GameLoop> */}
-      <TileMap />
-      {0 && (
+      <CanvaWrapper />
+      {false && (
         <Box bg="white" p={4}>
           <Text>List of communities</Text>
 

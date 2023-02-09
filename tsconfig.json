@@ -25,6 +25,7 @@
     "**/*.tsx",
     "functions/src/index.js",
     "functions/src/getToken.js"
+    // "src/components/TileMap/useGameFc.ts"
   ],
   "exclude": ["node_modules"]
 }

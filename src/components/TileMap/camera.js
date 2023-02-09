@@ -16,5 +16,5 @@ export default class Camera {
     // clamp values
     this.x = Math.max(0, Math.min(this.x, this.maxX));
     this.y = Math.max(0, Math.min(this.y, this.maxY));
-  }
+  };
 }
